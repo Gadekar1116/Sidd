@@ -37,7 +37,7 @@ st.write(tips.head())
 
 
 # --- Task 1: Interactive Bar Chart ---
-st.subheader("Task 2: Bar Chart - Average Tip by Day")
+st.subheader("Task 1: Bar Chart - Average Tip by Day")
 # Bar Chart: Average Tip by Day with color for each day
 fig2 = px.bar(
     tips, x='day', y='tip', color='day',
@@ -48,7 +48,7 @@ fig2 = px.bar(
 st.plotly_chart(fig2)  # Display the chart in Streamlit
 
 # --- Task 2: Interactive Histogram Chart ---
-st.subheader("Task 3: Histogram Chart - Average Tip by Day")
+st.subheader("Task 2: Histogram Chart - Average Tip by Day")
 # Bar Chart: Average Tip by Day with color for each day
 fig3 = px.histogram(
     tips, x='tip', color='sex',
