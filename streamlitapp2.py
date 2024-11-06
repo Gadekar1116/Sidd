@@ -14,7 +14,7 @@ st.title("Interactive Visualizations with Plotly and Streamlit")
 st.sidebar.header("Visualization skill workshop - Plotly")
 name = st.sidebar.text_input("Enter your name","Siddharth S Gadekar")
 usn = st.sidebar.text_input("Enter your USN","Semetser-I Btech")
-instructor_name = st.sidebar.text_input(Enter INstructor's name","Prof. Ashwini Mathur _ SOCSE")
+instructor_name = st.sidebar.text_input("Enter Instructor's name","Prof. Ashwini Mathur _ SOCSE")
 
 
 # Display author information if provided
