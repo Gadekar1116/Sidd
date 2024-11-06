@@ -19,7 +19,8 @@ instructor_name = st.sidebar.text_input("Prof. Ashwini Mathur _ SOCSE")
 
 # Display author information if provided
 if name and usn and instructor_name:
-    st.markdown(
+    st.markdown
+    (
         f"<h5 style='color: teal;'>Created by:</h5>"
         f"<p style='color: white;'>{name} (USN: {usn})</p>"
         f"<p style='color: white;'>Instructor: {instructor_name}</p>",
@@ -50,10 +51,13 @@ st.plotly_chart(fig2)  # Display the chart in Streamlit
 # --- Task 3: Interactive Histogram Chart ---
 st.subheader("Task 3: Histogram Chart - Average Tip by Day")
 # Bar Chart: Average Tip by Day with color for each day
-fig3 = px.Histogram(
-    tips, x='day', y='tip', color='day',
+fig3 = px.histogram(
+    tips, x='day', color='day',
     title='Average Tip by Day',
     labels={'tip': 'Average Tip ($)', 'day': 'Day of the Week'},
     template='plotly_white'
 )
 st.plotly_chart(fig3)  # Display the chart in Streamlit
+
+
+
