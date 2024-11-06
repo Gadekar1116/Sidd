@@ -13,7 +13,7 @@ st.title("Interactive Visualizations with Plotly and Streamlit")
 # --- Input for Author Information ---
 st.sidebar.header("Visualization skill workshop - Plotly")
 name = st.sidebar.text_input("Enter your name","Siddharth S Gadekar")
-usn = st.sidebar.text_input("Enter your USN","Semetser-I Btech")
+usn = st.sidebar.text_input("Enter your Course","Semetser-I Btech")
 instructor_name = st.sidebar.text_input("Enter Instructor's name","Prof. Ashwini Mathur _ SOCSE")
 
 
@@ -21,7 +21,7 @@ instructor_name = st.sidebar.text_input("Enter Instructor's name","Prof. Ashwini
 if name and usn and instructor_name:
     st.markdown(
         f"<h5 style='color: teal;'>Created by:</h5>"
-        f"<p style='color: white;'>{name} (USN: {usn})</p>"
+        f"<p style='color: white;'>{name} (COURSE: {course})</p>"
         f"<p style='color: white;'>Instructor: {instructor_name}</p>",
         unsafe_allow_html=True
     )
